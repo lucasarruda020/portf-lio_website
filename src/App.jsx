@@ -16,6 +16,21 @@ import handspeakPhoto from './assets/project/handspeak.jpg'
 import handspeakDemo from './assets/project/handspeakdemonstration.gif'
 import pyImage from './assets/project/py.jpg'
 import vectorImage from './assets/project/vectors.jpg'
+import trindadeLogo from './assets/storyLine/trindade.png'
+import trindadeTeamAll from './assets/storyLine/trindade_equipetoda.jpeg'
+import trindadeTeam from './assets/storyLine/trindade_time.jpg'
+import trindadeBirthday from './assets/storyLine/trindade_niver.jpg'
+import huaweiLogo from './assets/storyLine/huawei.png'
+import huaweiFirstDay from './assets/storyLine/huawei_primeirodia.jpg'
+import huaweiWorking from './assets/storyLine/huawei_trabalhando.jpg'
+import huaweiChess from './assets/storyLine/huawei_chess.jpg'
+import huaweiTeam from './assets/storyLine/huawei_equipe.jpg'
+import keetaLogo from './assets/storyLine/keeta.png'
+import keetaFirstDay from './assets/storyLine/Keeta_primeiroDia.jpg'
+import keetaTeam from './assets/storyLine/keeta_equipe.jpg'
+import keetaRio1 from './assets/storyLine/keeta_rio1.jpg'
+import keetaRio2 from './assets/storyLine/Keeta_rio2.jpg'
+import keetaLaunch from './assets/storyLine/Keeta_launch.jpg'
 
 const certificates = [
   {
@@ -125,15 +140,177 @@ const projectStory = [
   },
 ]
 
+const careerStory = [
+  {
+    eyebrow: 'Step 01',
+    company: 'Trindade Tecnologia',
+    role: 'Technical Support Intern',
+    logo: trindadeLogo,
+    description:
+      'Trindade Tecnologia is an ERP company for health insurance brokers. I joined as a Technical Support Intern in a small company with fewer than 50 employees, based in Praca da Republica, where I received my first opportunity in the job market.',
+    images: [
+      {
+        src: trindadeTeamAll,
+        alt: 'The full Trindade Tecnologia team',
+      },
+    ],a8 
+  },
+  {
+    eyebrow: 'Step 02',
+    company: 'Trindade Tecnologia',
+    role: 'Operating System and Product Support',
+    logo: trindadeLogo,
+    description:
+      'I was placed in the operating system and product support team, where we helped several brokerages through ticket-based solutions. That experience was very important for developing my communication and problem-management skills.',
+    images: [
+      {
+        src: trindadeTeam,
+        alt: 'Trindade Tecnologia support team',
+      },
+    ],
+  },
+  {
+    eyebrow: 'Step 03',
+    company: 'Trindade Tecnologia',
+    role: 'A memorable first chapter',
+    logo: trindadeLogo,
+    description:
+      'It is a place where I only carry good memories. They always treated me very well and saw strong potential in me. I still keep in touch with some of them today, and that experience became the first real step of my professional journey.',
+    images: [
+      {
+        src: trindadeBirthday,
+        alt: 'A celebration moment at Trindade Tecnologia',
+      },
+    ],
+  },
+  {
+    eyebrow: 'Step 04',
+    company: 'Huawei',
+    role: 'Software Developer Intern',
+    logo: huaweiLogo,
+    description:
+      'Huawei is the Chinese giant considered one of the biggest technology companies in the world. Passing its selection process was a huge moment for me. There were four interviews in total, and I went through each one excited, anxious, and highly motivated. Joining that company felt like a dream coming true.',
+    images: [
+      {
+        src: huaweiFirstDay,
+        alt: 'First day at Huawei',
+      },
+    ],
+  },
+  {
+    eyebrow: 'Step 05',
+    company: 'Huawei',
+    role: 'Automation, support, and development',
+    logo: huaweiLogo,
+    description:
+      'There I developed strong technical skills. We built Python automations with Pandas, scraping, and web crawlers. We also supported a C++ system and contributed to projects involving Java and Vue.js, which became extremely important for my professional growth across Brazil and LATAM operations.',
+    images: [
+      {
+        src: huaweiWorking,
+        alt: 'Working at Huawei',
+      },
+    ],
+  },
+  {
+    eyebrow: 'Step 06',
+    company: 'Huawei',
+    role: 'International exchange and learning',
+    logo: huaweiLogo,
+    description:
+      'At Huawei I even took part in a memorable Brazil versus China chess match. Liao was one of the international colleagues who impressed me the most with his intelligence and his ability to share knowledge through concise but powerful explanations.',
+    images: [
+      {
+        src: huaweiChess,
+        alt: 'Chess match at Huawei',
+      },
+    ],
+  },
+  {
+    eyebrow: 'Step 07',
+    company: 'Huawei',
+    role: 'An international team that shaped me',
+    logo: huaweiLogo,
+    description:
+      'Working in an international team helped me strengthen my English and dive deeper into Chinese culture. I built connections with people from different countries and learned from everyone around me. I feel I was shaped extremely well for the professional environment thanks to my manager Thiago and mentors Zhang Dongxu, Xiaohu, Rodrigues, and Luciana.',
+    images: [
+      {
+        src: huaweiTeam,
+        alt: 'Huawei team',
+      },
+    ],
+  },
+  {
+    eyebrow: 'Step 08',
+    company: 'Keeta Delivery Brazil',
+    role: 'API Integration Supervisor',
+    logo: keetaLogo,
+    description:
+      'Keeta is a food delivery company that arrived in Brazil in 2025. They invited me before operations started, and I was able to be part of the first day-one API team. That created a strong bond with my colleagues while we explored processes and challenges in a field that was completely new to me.',
+    images: [
+      {
+        src: keetaFirstDay,
+        alt: 'First day at Keeta Delivery Brazil',
+      },
+    ],
+  },
+  {
+    eyebrow: 'Step 09',
+    company: 'Keeta Delivery Brazil',
+    role: 'Business communication and API support',
+    logo: keetaLogo,
+    description:
+      'At Keeta I developed my communication with the business team and improved my ability to transfer knowledge and support the systems integrating with our APIs. Understanding the urgency of the launch, I helped make the process smoother and more successful as part of the machine that keeps Keeta moving.',
+    images: [
+      {
+        src: keetaTeam,
+        alt: 'Keeta team',
+      },
+    ],
+  },
+  {
+    eyebrow: 'Step 10',
+    company: 'Keeta Delivery Brazil',
+    role: 'My first business trip',
+    logo: keetaLogo,
+    description:
+      'Because of my performance, I was selected to travel alone to Rio de Janeiro to support the launch that was expected for March. Even though other strategies appeared along the way, this became my first business trip, and it will always remain special to me.',
+    images: [
+      {
+        src: keetaRio1,
+        alt: 'Keeta trip to Rio de Janeiro photo one',
+      },
+      {
+        src: keetaRio2,
+        alt: 'Keeta trip to Rio de Janeiro photo two',
+      },
+    ],
+  },
+  {
+    eyebrow: 'Step 11',
+    company: 'Keeta Delivery Brazil',
+    role: 'Current full-time chapter',
+    logo: keetaLogo,
+    description:
+      'Today I continue working at Keeta, helping the daily operation with the high-performance mindset I try to bring every morning. In the photo, my friend Enzo and I are working side by side as part of TIM, the Technical Integrations team.',
+    images: [
+      {
+        src: keetaLaunch,
+        alt: 'Keeta launch moment',
+      },
+    ],
+  },
+]
+
 function App() {
   const [activeIndex, setActiveIndex] = useState(0)
   const [activeStoryIndex, setActiveStoryIndex] = useState(0)
+  const [activeCareerIndex, setActiveCareerIndex] = useState(0)
   const [dragOffset, setDragOffset] = useState(0)
   const [isDraggingCertificates, setIsDraggingCertificates] = useState(false)
   const certificatePointerIdRef = useRef(null)
   const certificateDragStartXRef = useRef(0)
-  const certificateDidDragRef = useRef(false)
   const storyRefs = useRef([])
+  const careerRefs = useRef([])
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -160,6 +337,31 @@ function App() {
     }
   }, [])
 
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visibleEntries = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((entryA, entryB) => entryB.intersectionRatio - entryA.intersectionRatio)
+
+        if (visibleEntries[0]) {
+          setActiveCareerIndex(Number(visibleEntries[0].target.dataset.index))
+        }
+      },
+      {
+        threshold: [0.35, 0.55, 0.75],
+        rootMargin: '-10% 0px -15% 0px',
+      },
+    )
+
+    const elements = careerRefs.current.filter(Boolean)
+    elements.forEach((element) => observer.observe(element))
+
+    return () => {
+      observer.disconnect()
+    }
+  }, [])
+
   const changeCertificate = (direction) => {
     setActiveIndex((current) => (current + direction + certificates.length) % certificates.length)
   }
@@ -169,7 +371,6 @@ function App() {
       return
     }
 
-    certificateDidDragRef.current = false
     certificatePointerIdRef.current = event.pointerId
     certificateDragStartXRef.current = event.clientX
     setIsDraggingCertificates(true)
@@ -182,11 +383,6 @@ function App() {
     }
 
     const nextDragOffset = event.clientX - certificateDragStartXRef.current
-
-    if (Math.abs(nextDragOffset) > 12) {
-      certificateDidDragRef.current = true
-    }
-
     setDragOffset(nextDragOffset)
   }
 
@@ -209,7 +405,6 @@ function App() {
 
     certificatePointerIdRef.current = null
     certificateDragStartXRef.current = 0
-    certificateDidDragRef.current = false
     setIsDraggingCertificates(false)
     setDragOffset(0)
   }
@@ -267,7 +462,7 @@ function App() {
           <p className="eyebrow">drag sideways to see all</p>
           <h2>Certificates</h2>
           <p className="lead compact">
-            Drag to the left ⬅️ or to the right ➡️ to see all my certificates 
+            Drag to the left ⬅️ or to the right ➡️ to see all my certificates
           </p>
         </div>
 
@@ -359,6 +554,60 @@ function App() {
                 <div className="story-step-card">
                   <p className="card-label">{step.eyebrow}</p>
                   <h3>{step.title}</h3>
+                  <p>{step.description}</p>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="career-stage" id="career-story">
+        <div className="career-intro">
+          <p className="eyebrow">Career Story</p>
+          <h2>From my first internship to my current full-time role</h2>
+          <p className="lead compact">
+            A visual timeline of the companies that shaped my journey, from technical support to software development and API integration leadership.
+          </p>
+        </div>
+
+        <div className="career-shell">
+          <div className="career-visual-column">
+            <div className="career-visual-frame">
+              {careerStory.map((step, index) => (
+                <figure
+                  className={`career-media ${index === activeCareerIndex ? 'is-active' : ''}`}
+                  key={`${step.company}-${step.role}-${index}`}
+                >
+                  <div className={`career-media-stack ${step.images.length > 1 ? 'is-split' : ''}`}>
+                    {step.images.map((image) => (
+                      <img key={image.alt} src={image.src} alt={image.alt} />
+                    ))}
+                  </div>
+                  <figcaption>
+                    <span>{step.company}</span>
+                    <strong>{step.role}</strong>
+                  </figcaption>
+                </figure>
+              ))}
+            </div>
+          </div>
+
+          <div className="career-steps">
+            {careerStory.map((step, index) => (
+              <article
+                className={`career-step ${index === activeCareerIndex ? 'is-active' : ''}`}
+                data-index={index}
+                key={`${step.company}-${step.role}-${index}`}
+                ref={(element) => {
+                  careerRefs.current[index] = element
+                }}
+              >
+                <div className="career-step-card">
+                  <img className="career-company-logo" src={step.logo} alt={`${step.company} logo`} />
+                  <p className="card-label">{step.eyebrow}</p>
+                  <h3>{step.company}</h3>
+                  <h4>{step.role}</h4>
                   <p>{step.description}</p>
                 </div>
               </article>
