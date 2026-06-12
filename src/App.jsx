@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import './App.css'
 /* Imagens   */
 import dukeGenAI from './assets/CVs/dukeGenAI.jpeg'
+import resumePdf from './assets/CVs/CV - Lucas Arruda Silva.pdf'
 import llm from './assets/CVs/llm.jpeg'
 import ragAvancado from './assets/CVs/ragavancado.jpeg'
 import cienciadados from './assets/CVs/Cientistadedadospy.jpg'
@@ -12,11 +13,21 @@ import OracleJava from './assets/CVs/oracleJava.jpg'
 import pensamento from './assets/CVs/pensamentoComputacional.jpg'
 import pycomIA from './assets/CVs/pythoncomIA.jpg'
 import fiapJAVA from './assets/CVs/FIAPJavaFundamentos.jpg'
+import copilot from './assets/CVs/Copilot_Studio_Criando_solucao_multiagents.jpeg'
+import bigdata from './assets/CVs/bigdata.jpeg'
+import desenvolvimentoweb from './assets/CVs/desenvolvimentoweb.jpeg'
+import mysql from './assets/CVs/conhecaMySQL.jpeg'
+import neurociencias from './assets/CVs/neurociencias.jpeg'
+import langchain from './assets/CVs/LangChain_Tecnicas_Avancadas.jpeg'
+import python from './assets/CVs/curso_python.jpeg'
+import iasaude from './assets/CVs/iaSaude.jpeg'
 import handspeakPhoto from './assets/project/handspeak.jpg'
 import handspeakDemo from './assets/project/handspeakdemonstration.gif'
 import pyImage from './assets/project/py.jpg'
 import vectorImage from './assets/project/vectors.jpg'
 import trindadeLogo from './assets/storyLine/trindade.png'
+import lucasAdult from './assets/storyLine/lucasadulto.png'
+import lucasChild from './assets/storyLine/lucascrianca.png'
 import trindadeTeamAll from './assets/storyLine/trindade_equipetoda.jpeg'
 import trindadeTeam from './assets/storyLine/trindade_time.jpg'
 import trindadeBirthday from './assets/storyLine/trindade_niver.jpg'
@@ -98,6 +109,54 @@ const certificates = [
     subtitle: 'Alura',
     image: pensamento,
     note: 'How programming logic works.',
+  },
+  {
+    title: 'Copilot Studio: Criando solucao multiagents',
+    subtitle: 'Alura',
+    image: copilot,
+    note: 'Using the Copilot Studio to create Agents based in rules and data',
+  },
+  {
+    title: 'LangChain: Técnicas Avançadas',
+    subtitle: 'Alura',
+    image: langchain,
+    note: 'Using Advanced functions in Langchain with Python',
+  },
+  {
+    title: 'Neurociências: Trilhando os caminhos neurais da aprendizagem',
+    subtitle: 'Anima',
+    image: neurociencias,
+    note: 'How neurons work from childhood',
+  },
+  {
+    title: 'Inteligência artificial em saude',
+    subtitle: 'UNISOCIESC',
+    image: iasaude,
+    note: 'Best ways to improve AI for pattern recognition in hospitals.',
+  },
+  {
+    title: 'Curso de programação em python',
+    subtitle: 'unisul',
+    image: python,
+    note: 'Introduction, intermediate, and advanced levels in Python.',
+  },
+  {
+    title: 'Conhece o MySQL',
+    subtitle: 'UNIFACS',
+    image: mysql,
+    note: 'Introductory course on functions and how a MySQL database works.',
+  },
+  {
+    title: 'Desenvolvimento web',
+    subtitle: 'Udemy',
+    image: desenvolvimentoweb,
+    note: 'Creating 20 projects using JavaScript, Vue.js, Node.js, and other front-end functions.',
+  },
+  {
+    title: 'Big data',
+    subtitle: 'Anima',
+    image: bigdata,
+    note: 'A 6-month course on how a data and statistics analyst works.',
   },
 ]
 
@@ -419,19 +478,27 @@ function App() {
 
         <div className="hero-content">
           <article className="hero-copy">
-            <p className="eyebrow">AI Engineer • Data Science • Back-end Developer</p>
-            <h1>Lucas Arruda</h1>
-            <p className="lead">
-              Hello! Welcome to my website:
-            </p>
+            <div className="hero-intro-grid">
+              <div className="hero-text-stack">
+                <p className="eyebrow">AI Engineer • Data Science • Back-end Developer</p>
+                <h1>Lucas Arruda</h1>
+                <p className="lead">Hello! Welcome to my website:</p>
+              </div>
+
+              <figure className="hero-portrait" aria-label="Lucas Arruda photo with hover easter egg">
+                <img className="hero-photo hero-photo-default" src={lucasAdult} alt="Lucas Arruda portrait" />
+                <img className="hero-photo hero-photo-hover" src={lucasChild} alt="Lucas Arruda childhood easter egg" />
+              </figure>
+            </div>
 
             <div className="chip-row">
-              <span>email📧: lucasarruda020@gmail.com</span>
-              <span>Telphone📞: +55 11 99974-3055</span>
-              <span>Linkedin: https://www.linkedin.com/in/lucasarruda-silva/</span>
-              <span>GitHub: https://github.com/lucasarruda020</span>
+              <a href="mailto:lucasarruda020@gmail.com">Email📧 lucasarruda020@gmail.com</a>
+              <a href="tel:+5511999743055">Phone📞 +55 11 99974-3055</a>
+              <a href="https://www.linkedin.com/in/lucasarruda-silva/" target="_blank" rel="noreferrer">LinkedIn🔗 lucasarruda-silva</a>
+              <a href="https://github.com/lucasarruda020" target="_blank" rel="noreferrer">GitHub🔗 lucasarruda020</a>
+              <a href={resumePdf} download="CV - Lucas Arruda Silva.pdf">Resume📄</a>
               <span>Age: 24🎂</span>
-              <span>Location📍: São Paulo, Brazil</span>
+              <span>Location📍 São Paulo, Brazil</span>
             </div>
 
             <div className="hero-actions">
