@@ -153,7 +153,7 @@ const careerStory = [
         src: trindadeTeamAll,
         alt: 'The full Trindade Tecnologia team',
       },
-    ],a8 
+    ],
   },
   {
     eyebrow: 'Step 02',
