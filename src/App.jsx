@@ -44,6 +44,7 @@ import keetaRio2 from './assets/storyLine/Keeta_rio2.jpg'
 import keetaLaunch from './assets/storyLine/Keeta_launch.jpg'
 import toyotaCracha from './assets/storyLine/toyota_cracha_bandeiras.jpg'
 import toyotaDayone from './assets/storyLine/Toyota_firstDay.jpeg'
+
 import toyotalogo from './assets/storyLine/toyota_logo.jpg'
 import toyotaHome from './assets/storyLine/toyota_homeoffice.jpg'
 import toyotaPng from './assets/storyLine/toyota_png.png'
