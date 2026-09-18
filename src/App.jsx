@@ -42,7 +42,12 @@ import keetaTeam from './assets/storyLine/keeta_equipe.jpg'
 import keetaRio1 from './assets/storyLine/keeta_rio1.jpg'
 import keetaRio2 from './assets/storyLine/Keeta_rio2.jpg'
 import keetaLaunch from './assets/storyLine/Keeta_launch.jpg'
-
+import toyotaCracha from './assets/storyLine/toyota_cracha_bandeiras.jpg'
+import toyotaDayone from './assets/storyLine/toyota_firstDay.jpeg'
+import toyotalogo from './assets/storyLine/toyota_logo.jpg'
+import toyotaHome from './assets/storyLine/toyota_homeoffice.jpg'
+import toyotaPng from './assets/storyLine/toyota_png.png'
+import toyotapc from './assets/storyLine/toyota_pc_mala.jpg'
 const certificates = [
   {
     title: 'GenAI Basics - How LLMs Work',
@@ -358,6 +363,56 @@ const careerStory = [
       },
     ],
   },
+  {
+    eyebrow: 'Step 12',
+    company: 'Toyota',
+    role: 'New Chapter!',
+    logo: toyotaPng,
+    description:
+      'After a long selection process, I was thrilled to land the new job. Toyota is one of the worlds largest companies—and the largest automaker—having revolutionized the industry; they have now opened over 2,000 positions at the Sorocaba plant for the production of new vehicles. I spent my first day with the team that will be working at the factory, and they are really great people.',
+    images: [
+      {
+        src:   toyotaDayone,
+        alt: 'Toyota Day one',
+      },
+    ],
+  },
+  {
+    eyebrow: 'Step 13',
+    company: 'Toyota',
+    role: 'Gratitude and a desire to succeed at Toyota!',
+    logo: toyotaPng,
+    description:
+      'Joining Toyota—a company that helped modernize the world—really excited me. The company’s methodology of continuous improvement across all processes, workflows, and projects is something already studied in universities and educational institutions; however, seeing how the company actually operates firsthand makes it even more inspiring. Being part of this—acting as a cog in this massive machine—makes me very happy and eager to learn and contribute.',
+    images: [
+      {
+        src:   toyotalogo,
+        alt: 'Logo in the Toyota factory',
+      },
+      {
+        src:   toyotaCracha,
+        alt: 'Sunnyday',
+      },
+    ],
+  },
+  {
+    eyebrow: 'Step 14',
+    company: 'Toyota',
+    role: 'Home Office!',
+    logo: toyotaPng,
+    description:
+      'After three years of working on-site every day, I’ve been able to enjoy working from home at Toyota. I’m very happy, though the role demands a lot of work, dedication, and focus; AI is helping me immensely with all the tasks and processes—it’s been great for starting a new job as a software developer.',
+    images: [
+      {
+        src:   toyotaHome,
+        alt: 'First day at Home office',
+      },
+      {
+        src: toyotapc,
+        alt: 'new setup for home office',
+      }
+    ],
+  }
 ]
 
 function App() {
@@ -480,7 +535,7 @@ function App() {
           <article className="hero-copy">
             <div className="hero-intro-grid">
               <div className="hero-text-stack">
-                <p className="eyebrow">AI Engineer • Data Science • Back-end Developer</p>
+                <p className="eyebrow">AI Engineer • Data Science • System Developer</p>
                 <h1>Lucas Arruda</h1>
                 <p className="lead">Hello! Welcome to my website:</p>
               </div>
@@ -502,7 +557,7 @@ function App() {
             </div>
 
             <div className="hero-actions">
-              <a className="button button-secondary" href="#about">Working💻: Keeta API Integration</a>
+              <a className="button button-secondary" href="#about">Working💻: Toyota System Development Analyst</a>
               <a className="button button-secondary" href="#work">Studying📚: MBA Data Science and IA Generation at USP</a>
               <a className="button button-secondary" href="#work">Undergrad👷🏻: Computer Engineer on-site 2020-2025</a>
             </div>
